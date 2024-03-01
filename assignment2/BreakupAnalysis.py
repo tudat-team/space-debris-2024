@@ -186,12 +186,12 @@ reentry_times = []
 if LEO_flag or one_at_a_time:
     
     # Loop over objects and propagate to final time
-    for ii in range(nobj):
+    for jj in range(nobj):
         
-        print('Processing Object:', ii)
-        kep = kep_array_initial[ii,:].flatten()
-        params['area'] = reduced_area_list[ii]
-        params['mass'] = reduced_mass_list[ii]
+        print('Processing Object:', jj)
+        kep = kep_array_initial[jj,:].flatten()
+        params['area'] = reduced_area_list[jj]
+        params['mass'] = reduced_mass_list[jj]
         params['Cd'] = Cd
         params['Cr'] = Cr
     
