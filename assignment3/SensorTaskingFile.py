@@ -1,3 +1,4 @@
+import numpy as np
 import json
 from datetime import datetime
 
@@ -14,6 +15,11 @@ json_file = 'group7_sensor_tasking_file.json'
 # Sensor type is a string, either 'radar' or 'optical'
 sensor_type = 'radar'
 #sensor_type = 'optical'
+
+# Sensor location
+latitude_radians = np.deg2rad(10.)
+longitude_radians = np.deg2rad(20.)
+height_meters = 30.
 
 # Indicate start times and object IDs for each task.
 # You must ensure that sensor constraints are met.
@@ -82,6 +88,9 @@ task10_object_id = 10010
 
 tasking_dict = {}
 tasking_dict['sensor_type'] = sensor_type
+tasking_dict['latitude_radians'] = latitude_radians
+tasking_dict['longitude_radians'] = longitude_radians
+tasking_dict['height_meters'] = height_meters
 
 tasking_dict['1'] = {}
 tasking_dict['1']['start'] = task1_start_UTC.strftime('%Y-%m-%d %H:%M:%S')
