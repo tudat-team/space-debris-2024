@@ -475,9 +475,12 @@ def propagate_state_and_covar(Xo, Po, tvec, state_params, int_params, bodies=Non
     
     # Compute mean and covariance at final time using unscented transform
     chi = np.reshape(chi_v, (n, 2*n+1), order='F')
-    Xf = np.dot(chi, Wm.T)
-    Xf = np.reshape(Xf, (n, 1))
-    chi_diff = chi - np.dot(Xf, np.ones((1, (2*n+1))))
+    mean = np.dot(chi, Wm.T)
+    mean = np.reshape(mean, (n, 1))
+    chi_diff = chi - np.dot(mean, np.ones((1, (2*n+1))))
     Pf = np.dot(chi_diff, np.dot(diagWc, chi_diff.T))
+    
+    # Output single mean state not computed average of sigma points
+    Xf = chi_v[0:6].reshape(6,1)
     
     return tf, Xf, Pf
