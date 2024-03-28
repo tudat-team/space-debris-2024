@@ -313,41 +313,41 @@ if __name__ == '__main__':
     if not os.path.exists('linear_model'):
         os.makedirs('linear_model')
     
-    # Setup Linear Model Range Measurements
-    datadir = 'linear_model'
-    setup_file = os.path.join(datadir, 'linear_model_setup.pkl')
-    truth_file = os.path.join(datadir, 'linear_model_truth.pkl')
-    meas_file = os.path.join(datadir, 'linear_model_meas.pkl')
-    output_file = os.path.join(datadir, 'linear_model_batch_output.pkl')
+    # # Setup Linear Model Range Measurements
+    # datadir = 'linear_model'
+    # setup_file = os.path.join(datadir, 'linear_model_setup.pkl')
+    # truth_file = os.path.join(datadir, 'linear_model_truth.pkl')
+    # meas_file = os.path.join(datadir, 'linear_model_meas.pkl')
+    # output_file = os.path.join(datadir, 'linear_model_batch_output.pkl')
     
-    intfcn = Estimators.int_constant_vel
-    generate_linear_inputs(setup_file)
-    generate_linear_truth(setup_file, truth_file, intfcn)
-    generate_linear_meas(setup_file, truth_file, meas_file)
-    
-    
-    # Run Batch Estimator
-    intfcn = Estimators.int_constant_vel_stm
-    meas_fcn = Estimators.H_linear_range
-    run_estimator_linear_model(setup_file, truth_file, meas_file, output_file,
-                                intfcn, meas_fcn, 'batch')
-    
-    compute_linear_errors(setup_file, truth_file, output_file)
-    
-    # Run Linear UKF with Range Measurements
-    output_file = os.path.join(datadir, 'linear_model_ukf_output.pkl')
-    intfcn = Estimators.int_constant_vel_ukf
-    meas_fcn = Estimators.unscented_linear1d_rg
-    
-    run_estimator_linear_model(setup_file, truth_file, meas_file, output_file,
-                                intfcn, meas_fcn, 'ukf')
-    
-    compute_linear_errors(setup_file, truth_file, output_file)
+    # intfcn = Estimators.int_constant_vel
+    # generate_linear_inputs(setup_file)
+    # generate_linear_truth(setup_file, truth_file, intfcn)
+    # generate_linear_meas(setup_file, truth_file, meas_file)
     
     
-    # Run UKF Process Noise Tuning for Filter = Truth
-    intfcn = Estimators.int_constant_vel
-    snc_tuning(intfcn)
+    # # Run Batch Estimator
+    # intfcn = Estimators.int_constant_vel_stm
+    # meas_fcn = Estimators.H_linear_range
+    # run_estimator_linear_model(setup_file, truth_file, meas_file, output_file,
+    #                             intfcn, meas_fcn, 'batch')
+    
+    # compute_linear_errors(setup_file, truth_file, output_file)
+    
+    # # Run Linear UKF with Range Measurements
+    # output_file = os.path.join(datadir, 'linear_model_ukf_output.pkl')
+    # intfcn = Estimators.int_constant_vel_ukf
+    # meas_fcn = Estimators.unscented_linear1d_rg
+    
+    # run_estimator_linear_model(setup_file, truth_file, meas_file, output_file,
+    #                             intfcn, meas_fcn, 'ukf')
+    
+    # compute_linear_errors(setup_file, truth_file, output_file)
+    
+    
+    # # Run UKF Process Noise Tuning for Filter = Truth
+    # intfcn = Estimators.int_constant_vel
+    # snc_tuning(intfcn)
     
     # Run UKF Process Noise Tuning for Filter not equal Truth
     # Setup file contains small negative acceleration like friction

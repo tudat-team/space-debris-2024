@@ -13,7 +13,7 @@ def ramp_motion_input_parameters():
     params = {}
     
     # Choose the ramp incline angle
-    params['ramp_incline'] = 40.        # deg
+    params['ramp_incline'] = 30.        # deg
     
     # Choose an object shape (all options included)
     # Note that the cylinder can either slide or roll so 2 choices are listed
@@ -29,8 +29,8 @@ def ramp_motion_input_parameters():
     # params['material'] = 'steel'
     
     # Choose whether to include drag force (True) or not (False)
-    params['drag_flag'] = True
-    # params['drag_flag'] = False
+    # params['drag_flag'] = True
+    params['drag_flag'] = False
     
     # Dimensions
     # Specific choices depend on which shape is chosen above, make sure to 
