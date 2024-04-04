@@ -205,37 +205,7 @@ RSO 91285 failed elevation constraint at 2024-03-22 08:04:53
 RSO 91285 failed elevation constraint at 2024-03-22 08:05:03
 
 Task 9 Status
-RSO 20580 is outside sensor tasking window at 2024-03-23 03:33:29
+Success
 
 Task 10 Status
-RSO 20580 failed elevation constraint at 2024-03-22 10:35:32
-RSO 20580 failed elevation constraint at 2024-03-22 10:35:42
-RSO 20580 failed elevation constraint at 2024-03-22 10:35:52
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:02
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:12
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:22
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:32
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:42
-RSO 20580 failed elevation constraint at 2024-03-22 10:36:52
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:02
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:12
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:22
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:32
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:42
-RSO 20580 failed elevation constraint at 2024-03-22 10:37:52
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:02
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:12
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:22
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:32
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:42
-RSO 20580 failed elevation constraint at 2024-03-22 10:38:52
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:02
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:12
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:22
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:32
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:42
-RSO 20580 failed elevation constraint at 2024-03-22 10:39:52
-RSO 20580 failed elevation constraint at 2024-03-22 10:40:02
-RSO 20580 failed elevation constraint at 2024-03-22 10:40:12
-RSO 20580 failed elevation constraint at 2024-03-22 10:40:22
-RSO 20580 failed elevation constraint at 2024-03-22 10:40:32
+Success

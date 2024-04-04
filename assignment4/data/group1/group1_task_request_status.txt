@@ -34,70 +34,10 @@ RSO 91260 failed elevation constraint at 2024-03-21 12:10:50
 RSO 91260 failed elevation constraint at 2024-03-21 12:11:00
 
 Task 2 Status
-RSO 91107 failed eclipse constraint at 2024-03-21 12:14:30
-RSO 91107 failed eclipse constraint at 2024-03-21 12:14:40
-RSO 91107 failed eclipse constraint at 2024-03-21 12:14:50
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:00
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:10
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:20
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:30
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:40
-RSO 91107 failed eclipse constraint at 2024-03-21 12:15:50
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:00
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:10
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:20
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:30
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:40
-RSO 91107 failed eclipse constraint at 2024-03-21 12:16:50
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:00
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:10
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:20
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:30
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:40
-RSO 91107 failed eclipse constraint at 2024-03-21 12:17:50
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:00
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:10
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:20
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:30
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:40
-RSO 91107 failed eclipse constraint at 2024-03-21 12:18:50
-RSO 91107 failed eclipse constraint at 2024-03-21 12:19:00
-RSO 91107 failed elevation constraint at 2024-03-21 12:19:10
-RSO 91107 failed elevation constraint at 2024-03-21 12:19:20
-RSO 91107 failed elevation constraint at 2024-03-21 12:19:30
+Success
 
 Task 3 Status
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:00
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:10
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:20
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:30
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:40
-RSO 91764 failed eclipse constraint at 2024-03-21 12:37:50
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:00
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:10
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:20
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:30
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:40
-RSO 91764 failed eclipse constraint at 2024-03-21 12:38:50
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:00
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:10
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:20
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:30
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:40
-RSO 91764 failed eclipse constraint at 2024-03-21 12:39:50
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:00
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:10
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:20
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:30
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:40
-RSO 91764 failed eclipse constraint at 2024-03-21 12:40:50
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:00
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:10
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:20
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:30
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:40
-RSO 91764 failed eclipse constraint at 2024-03-21 12:41:50
-RSO 91764 failed eclipse constraint at 2024-03-21 12:42:00
+Success
 
 Task 4 Status
 RSO 91888 failed elevation constraint at 2024-03-21 12:50:50
@@ -269,33 +209,6 @@ RSO 91320 failed elevation constraint at 2024-03-21 14:33:20
 RSO 91320 failed elevation constraint at 2024-03-21 14:33:30
 RSO 91320 failed elevation constraint at 2024-03-21 14:33:40
 RSO 91320 failed elevation constraint at 2024-03-21 14:33:50
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:00
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:10
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:20
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:30
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:40
-RSO 91320 failed elevation constraint at 2024-03-21 14:34:50
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:00
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:10
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:20
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:30
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:40
-RSO 91320 failed elevation constraint at 2024-03-21 14:35:50
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:00
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:10
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:20
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:30
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:40
-RSO 91320 failed elevation constraint at 2024-03-21 14:36:50
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:00
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:10
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:20
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:30
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:40
-RSO 91320 failed elevation constraint at 2024-03-21 14:37:50
-RSO 91320 failed elevation constraint at 2024-03-21 14:38:00
-RSO 91320 failed elevation constraint at 2024-03-21 14:38:10
-RSO 91320 failed elevation constraint at 2024-03-21 14:38:20
 
 Task 10 Status
 RSO 91059 failed elevation constraint at 2024-03-21 15:26:30
